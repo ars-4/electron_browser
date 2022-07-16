@@ -1,0 +1,20 @@
+{
+  "name": "browser",
+  "version": "2.2.4",
+  "description": "Null",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Browser"
+  ],
+  "author": "ARS",
+  "license": "UNLICENSED",
+  "electronVersion": "19.0.7",
+  "devDependencies": {
+    "electron": "^19.0.7",
+    "electron-builder": "^23.1.0"
+  }
+}

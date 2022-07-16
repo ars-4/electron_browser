@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser</title>
+    <link rel="stylesheet" href="assets/Bootstrap/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background: linear-gradient(to bottom right, #242424, #f44336);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .search-engines {
+        padding: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+    }
+
+    a {
+        padding: 20px;
+        text-align: center;
+        background-color: #f44336;
+        color: #fff;
+        text-decoration: none;
+        font-family: cursive;
+    }
+</style>
+
+<body id="body">
+    <div class="search-engines row">
+        <div class="col-md-2"></div>
+        <div class="card col-md-2">
+            <img src="assets/images/duckduckgo.png">
+            <a href="https://duckduckgo.com/">Duck Duck Go</a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="card col-md-2">
+            <img src="assets/images/bing.jpg">
+            <a href="https://bing.com/">Bing</a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="card col-md-2">
+            <img src="assets/images/google.png">
+            <a href="https://google.com/">Google</a>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <script>
+        document.querySelector('#body').style.height = window.innerHeight + "px";
+    </script>
+    <script src="assets/Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
